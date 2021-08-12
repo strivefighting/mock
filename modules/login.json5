@@ -1,0 +1,9 @@
+{
+    // H5 登录
+    'login/h5': {
+       'user_id|+1': 1, // 用户id
+       name: '@cname', // 用户昵称
+       avatar: "@image('200x100', '#894FC4', '#FFF', 'png', '@cname')", // 用户头像
+       login_time: '@datetime', // 用户登录时间
+    }
+}

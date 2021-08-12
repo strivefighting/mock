@@ -1,0 +1,21 @@
+{
+    // 管理员信息
+    'user/admin': {
+        name: '@cname', // 管理员姓名
+        'age|1-50': 20,  // 年龄
+        'sex|1-2': 1, // 性别
+    },
+    // 用户列表
+    'user/list': {
+        'list|5-20': [
+            {
+                id: '@id',
+                name: '@cname',
+                province: '@province',
+                intruduce: '@cparagraph(1, 4)',
+                date_time: '@datetime',
+                avatar: '@image'
+            }
+        ]
+    }
+}
